@@ -1,14 +1,8 @@
 <div>
 	<?php 
-		function numCompare($num1, $num2){
-			if($num1 >$num2){
-				return "Le premier nombre est plus grand ";
-			}elseif ($num2 > $num1) {
-				return "Le premier nombre est plus petit";
-			}else{
-				return "Les deux nombres sont identiques";
-			}
+		function hello($nom, $prenom, $age){
+			return "Bonjour $nom $prenom, tu as $age ans";
 		}
-		var_dump(numCompare(10,10));
+		var_dump(hello("truc","machin",34));
 	 ?>	
 </div>
