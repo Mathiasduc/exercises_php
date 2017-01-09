@@ -13,12 +13,13 @@
 			echo $_GET['nom'] ." ". $_GET['prenom'];
 		}
 	}*/
-	function isAgeSet(){
-		if($_GET['age']){
-			echo $_GET['age'];
+	
+	function isAllSet(){
+		if($_GET['dateDebut'] && $_GET['dateFin']){
+			echo $_GET['dateDebut'] ." ". $_GET['dateFin'];
 		}
 	}
-	isAgeSet();
+	isAllSet();
 	?>
 	
 </body>
