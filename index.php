@@ -2,12 +2,18 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Arrays</title>
+	<title>Param urls</title>
 </head>
 <body>
-	<div>Pratiquons le tableaux!</div>	
+	<div>Pratiquons les queries!</div>	
 	<?php
-		include __DIR__ . '/arrays.php';
+
+	function test(){
+		if($_GET['nom'] && $_GET['prenom']){
+			echo $_GET['nom'] ." ". $_GET['prenom'];
+		}
+	}
+	test();
 	?>
 	
 </body>
