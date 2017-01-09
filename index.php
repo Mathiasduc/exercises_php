@@ -2,24 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Param urls</title>
+	<title>Forms</title>
 </head>
 <body>
-	<div>Pratiquons les queries!</div>	
+<h1>Les fornulaires :</h1>
 	<?php
-
-	/*function test(){
-		if($_GET['nom'] && $_GET['prenom']){
-			echo $_GET['nom'] ." ". $_GET['prenom'];
-		}
-	}*/
-	
-	function isAllSet(){
-		if($_GET['semaine']){
-			echo $_GET['semaine'];
-		}
-	}
-	isAllSet();
+	include 'forms.php';
 	?>
 	
 </body>
