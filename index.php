@@ -5,10 +5,15 @@
 	<title>Forms</title>
 </head>
 <body>
-<h1>Les fornulaires :</h1>
+<h1>Les formulaires :</h1>
 	<?php
-	include 'forms.php';
+	if ($_GET || $_POST) {
+		var_dump($_GET , $_POST);
+	}else{
+		include 'forms.php';
+	}
 	?>
+
 	
 </body>
 </html>

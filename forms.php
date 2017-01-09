@@ -1,4 +1,4 @@
-<form action="index.php" method="post">
+<form action="index.php" method="<?=$_SERVER['PHP_SELF'];?>">
 	<select name="gender" id="gender">
 		<option value="">Civilitée</option>
 		<option value="Mr">Mr</option>
