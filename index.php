@@ -15,8 +15,8 @@
 	}*/
 	
 	function isAllSet(){
-		if($_GET['batiment'] && $_GET['salle']){
-			echo $_GET['batiment'] ." ". $_GET['salle'];
+		if($_GET['semaine']){
+			echo $_GET['semaine'];
 		}
 	}
 	isAllSet();
