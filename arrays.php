@@ -11,7 +11,7 @@
 	51 => "Reims"
 	];	
 	foreach ($dept as $key => $value) {
-		echo "$value <br>";
+		echo "Le département $value a le numéro $key <br>";
 	}
 
 	?>
