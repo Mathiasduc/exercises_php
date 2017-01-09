@@ -8,11 +8,10 @@
 	<div>
 		<?php 
 		$a = 1;
-		while ($a < 10) {
-			echo $a . "\n";
-			$a = $a + $a / 2;
+		while ($a < 15) {
+			echo "On y arrive presque.";
+			$a++;	
 		}
-
 	?>
 </div>
 </body>
