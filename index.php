@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Loops</title>
+	<title>Functions</title>
 </head>
 <body>
-	<div>BOnjour</div>	
+	<div>Pratiquons le fonctions!</div>	
 	<?php
-		include __DIR__ . '/loop.php';
+		include __DIR__ . '/function.php';
 	?>
 	
 </body>
