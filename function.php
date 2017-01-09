@@ -1,8 +1,8 @@
 <div>
 	<?php 
-		function yo(){
-			return true;
+		function yo($string){
+			return $string;
 		}
-		yo();
+
 	 ?>
 </div>
