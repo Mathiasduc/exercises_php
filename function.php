@@ -1,23 +1,8 @@
 <div>
 	<?php 
-	function hello($gender, $age){
-		if ($gender === "Homme") {
-			if($age > 18){
-				return "Vous êtes un homme et vous êtes majeur";
-			}else{
-				return "Vous êtes un homme et vous êtes mineur";
-			}
-		}
-		elseif($gender === "female"){
-			if ($age > 18) {
-				return "Vous êtes une femme et vous êtes majeur";
-			}else{
-				return "Vous êtes une femme et vous êtes mineur";
-			}
-		}else{
-			return "error";
-		}
+	function sum($num1=3, $num2=20, $num3=100){
+		return $num1 + $num2 + $num3;
 	}
-	var_dump(hello("Homme",12	));
+	var_dump(sum(1,34,45454545));
 	?>	
 </div>
