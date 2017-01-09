@@ -6,8 +6,9 @@
 	59 => "Nord",
 	"Oise" => "60",
 	"Pas-de-Calais" => "62",
-	"Somme" => "80"];
-	var_dump($dept[59]);	
+	"Somme" => "80",
+	51 => "Reims"];
+	var_dump($dept[51]);	
 
 	?>
 </div>
