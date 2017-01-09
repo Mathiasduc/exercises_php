@@ -1,6 +1,6 @@
 <div>
 	<h3><?php 
-	var_dump($_GET);
-	echo $_GET;
+	var_dump($_POST);
+	/*echo $_GET;*/
 	 ?></h3>
 </div>
