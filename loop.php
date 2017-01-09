@@ -7,10 +7,10 @@
 <body>
 	<div>
 		<?php 
-		$a = 0;
-		while ($a < 20) {
-			echo "C'est presque bon.";
-			$a++;	
+		$a = 1;
+		while ($a < 100) {
+			echo "On tient le bon bout.";
+			$a = $a + 15;	
 		}
 	?>
 </div>
