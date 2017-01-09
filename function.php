@@ -1,8 +1,8 @@
 <div>
 	<?php 
-		function yo($string){
-			return $string;
+		function yo($string1, $string2){
+			return $string1 . $string2;
 		}
-
-	 ?>
+		yo("y","o");
+	 ?>	
 </div>
