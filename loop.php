@@ -7,9 +7,9 @@
 <body>
 	<div>
 		<?php 
-		$a = 1;
-		while ($a < 15) {
-			echo "On y arrive presque.";
+		$a = 0;
+		while ($a < 20) {
+			echo "C'est presque bon.";
 			$a++;	
 		}
 	?>
