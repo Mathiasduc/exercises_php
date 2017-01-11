@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE <html></html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -9,7 +9,7 @@
 	<div class="center frame">
 		<h1>Maitriser les dates:</h1>
 		<?php 
-		include 'exercise6.php';
+		include 'exercise7.php';
 				 ?>
 		<!-- <a href="index.php?page=otherPage">Autre page.</a>
 		<a href="index.php?page=exercise3FormLogin">Login</a>
