@@ -9,7 +9,7 @@
 	<div class="center frame">
 		<h1>Maitriser les dates:</h1>
 		<?php 
-		include 'exercise2.php';
+		include 'exercise3.php';
 				 ?>
 		<!-- <a href="index.php?page=otherPage">Autre page.</a>
 		<a href="index.php?page=exercise3FormLogin">Login</a>
