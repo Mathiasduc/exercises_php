@@ -24,6 +24,7 @@ setcookie('age', '24', time() + 2*24*3600, null, null, false, true);
 		<h1>Les variables globales :</h1>
 		<a href="index.php?page=otherPage">Autre page.</a>
 		<a href="index.php?page=exercise3FormLogin">Login</a>
+		<a href="index.php?page=exo4">Modif cookie</a>
 		<?php 
 		if(isset($_GET['page'])){
 			include __DIR__ ."/" . $_GET['page'] .".php";
